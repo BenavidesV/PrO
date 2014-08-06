@@ -31,10 +31,10 @@ public class Partidos {
         nuevo.setGolesL(golesL);
         nuevo.setGolesV(golesV);
         
-        if(calendario==null)
+        if(getCalendario()==null)
         {
             nuevo.setSiguientePartido(null);
-            calendario=nuevo;
+            setCalendario(nuevo);
         }
         else
         {
@@ -49,7 +49,7 @@ public class Partidos {
     
     public void Imprimir()
     {
-        NodoPartidos recorridoP=calendario.getCalendario();
+        NodoPartidos recorridoP=getCalendario().getCalendario();
         
         System.out.println("Listado de todos los elementos de la lista");
         while(recorridoP!=null)
@@ -64,7 +64,21 @@ public class Partidos {
     
     public boolean EstaVacia()
     {
-        return calendario.getCalendario()==null;
+        return getCalendario().getCalendario()==null;
+    }
+
+    /**
+     * @return the calendario
+     */
+    public NodoPartidos getCalendario() {
+        return calendario;
+    }
+
+    /**
+     * @param calendario the calendario to set
+     */
+    public void setCalendario(NodoPartidos calendario) {
+        this.calendario = calendario;
     }
     
 }

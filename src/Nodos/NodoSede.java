@@ -12,5 +12,37 @@ package Nodos;
  */
 public class NodoSede {
     private String estadio;
+    private NodoPartidos partidosD;
+    private NodoSede siguienteSede;
+
+    public void setPartidosD(NodoPartidos partidosD) {
+        this.partidosD = partidosD;
+    }
+
+    public NodoPartidos getPartidosD() {
+        return partidosD;
+    }
+
+    /**
+     * @return the estadio
+     */
+    public String getEstadio() {
+        return estadio;
+    }
+
+    /**
+     * @param estadio the estadio to set
+     */
+    public void setEstadio(String estadio) {
+        this.estadio = estadio;
+    }
+
+    public NodoSede getSiguienteSede() {
+        return siguienteSede;
+    }
+
+    public void setSiguienteSede(NodoSede siguienteSede) {
+        this.siguienteSede = siguienteSede;
+    }
     
 }

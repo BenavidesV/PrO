@@ -9,7 +9,10 @@ import Listas.Equipos;
 import Listas.Grupos;
 import Listas.Jugadores;
 import Listas.Partidos;
+import Listas.Sedes;
 import Nodos.NodoEquipo;
+import Nodos.NodoPartidos;
+import Nodos.NodoSede;
 import java.util.Scanner;
 import project.ii.frame.frmMain;
 
@@ -355,6 +358,17 @@ public class ProjectII {
         ListaPartidos.Insertar("COLOMBIA","GRECIA","13 JUNIO","13:00",
                 "ESTADIO MINEIRAO","","5' ARMERO" +"\n"+"58' TEO"+"\n"+"90'+3 JAMES");
         
+//Se filtran los partidos que se llevaron a cabo en cada estadio
+        
+        NodoPartidos pArenaAmazonia;
+        NodoPartidos pArenaCorinthians;
+//        NodoPartidos pArenaBaxaida;
+//        NodoPartidos pArenaAmazonia;
+//        NodoPartidos pArenaAmazonia;
+//        NodoPartidos pArenaAmazonia;
+        
+        Sedes oSedes = new Sedes();
+//        oSedes.Insertar("ARENA AMAZONIA", pArenaAmazonia);
 
         frmMain oMain= new frmMain();
         oMain.setVisible(true);
