@@ -27,21 +27,12 @@ public class frmMain extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        txtTitle = new javax.swing.JTextArea();
         btnEquipos = new javax.swing.JButton();
         txtCalendario = new javax.swing.JButton();
         txtSedes = new javax.swing.JButton();
+        lblBrasil2014 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jScrollPane1.setToolTipText("BRASIL 2014");
-
-        txtTitle.setColumns(20);
-        txtTitle.setRows(5);
-        txtTitle.setText("BRASIL 2014");
-        txtTitle.setToolTipText("");
-        jScrollPane1.setViewportView(txtTitle);
 
         btnEquipos.setText("EQUIPOS");
         btnEquipos.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -54,28 +45,32 @@ public class frmMain extends javax.swing.JFrame {
 
         txtSedes.setText("SEDES");
 
+        lblBrasil2014.setText("BRASIL 2014");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(77, 77, 77)
-                .addComponent(btnEquipos)
-                .addGap(51, 51, 51)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(77, 77, 77)
+                        .addComponent(btnEquipos)
+                        .addGap(51, 51, 51)
                         .addComponent(txtCalendario)
                         .addGap(54, 54, 54)
                         .addComponent(txtSedes))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(181, 181, 181)
+                        .addComponent(lblBrasil2014, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(104, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(46, 46, 46)
+                .addComponent(lblBrasil2014, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(51, 51, 51)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnEquipos)
                     .addComponent(txtCalendario)
@@ -129,9 +124,8 @@ public class frmMain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEquipos;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblBrasil2014;
     private javax.swing.JButton txtCalendario;
     private javax.swing.JButton txtSedes;
-    private javax.swing.JTextArea txtTitle;
     // End of variables declaration//GEN-END:variables
 }
