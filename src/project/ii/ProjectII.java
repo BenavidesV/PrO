@@ -9,10 +9,7 @@ import Listas.Equipos;
 import Listas.Grupos;
 import Listas.Jugadores;
 import Listas.Partidos;
-import Listas.Sedes;
 import Nodos.NodoEquipo;
-import Nodos.NodoPartidos;
-import Nodos.NodoSede;
 import java.util.Scanner;
 import project.ii.frame.frmMain;
 
@@ -199,7 +196,7 @@ public class ProjectII {
         japon.Insertar("ENDO", 34);
 
         Jugadores mexico = new Jugadores();
-        mexico.Insertar("DOS SANTOS",25);
+        mexico.Insertar("DOS SANTOS", 25);
         mexico.Insertar("HERNANDEZ", 26);
         mexico.Insertar("GUARDADO", 27);
         mexico.Insertar("OCHOA", 29);
@@ -217,46 +214,46 @@ public class ProjectII {
         pBajos.Insertar("DEPAY", 20);
         pBajos.Insertar("DE VRIJ", 22);
         pBajos.Insertar("WIJNALDUM", 23);
-        pBajos.Insertar("FER",24);
+        pBajos.Insertar("FER", 24);
         pBajos.Insertar("BLIND", 24);
         pBajos.Insertar("HUNTELARR", 30);
         pBajos.Insertar("ROBBEN", 30);
         pBajos.Insertar("VAN PERSIE", 30);
         pBajos.Insertar("SNEIJDER", 30);
-        
+
         Jugadores portugal = new Jugadores();
-        portugal.Insertar("NETO",26);
-        portugal.Insertar("NANI",27);
-        portugal.Insertar("VARELA",29);
-        portugal.Insertar("CRISTIANO RONALDO",29);
-        portugal.Insertar("BETO",32);
-        
+        portugal.Insertar("NETO", 26);
+        portugal.Insertar("NANI", 27);
+        portugal.Insertar("VARELA", 29);
+        portugal.Insertar("CRISTIANO RONALDO", 29);
+        portugal.Insertar("BETO", 32);
+
         Jugadores rCorea = new Jugadores();
-        rCorea.Insertar("SON",22);
-        rCorea.Insertar("KOO",25);
-        rCorea.Insertar("KI",25);
-        rCorea.Insertar("LEE",29);
-        rCorea.Insertar("HA",29);
-        
+        rCorea.Insertar("SON", 22);
+        rCorea.Insertar("KOO", 25);
+        rCorea.Insertar("KI", 25);
+        rCorea.Insertar("LEE", 29);
+        rCorea.Insertar("HA", 29);
+
         Jugadores rusia = new Jugadores();
-        rusia.Insertar("KOKORIN",23);
-        rusia.Insertar("IONOV",25);
-        rusia.Insertar("GRANAT",27);
-        rusia.Insertar("KERZHAKOV",31);
-        
+        rusia.Insertar("KOKORIN", 23);
+        rusia.Insertar("IONOV", 25);
+        rusia.Insertar("GRANAT", 27);
+        rusia.Insertar("KERZHAKOV", 31);
+
         Jugadores suiza = new Jugadores();
-        suiza.Insertar("XHAKA",21);
-        suiza.Insertar("SEFEROVIC",22);
-        suiza.Insertar("SHAKIRI",22);
-        suiza.Insertar("MEHMEDI",23);
-        suiza.Insertar("DZEMAILI",28);
-        
+        suiza.Insertar("XHAKA", 21);
+        suiza.Insertar("SEFEROVIC", 22);
+        suiza.Insertar("SHAKIRI", 22);
+        suiza.Insertar("MEHMEDI", 23);
+        suiza.Insertar("DZEMAILI", 28);
+
         Jugadores uruguay = new Jugadores();
-        uruguay.Insertar("LODEIRO",25);
-        uruguay.Insertar("CAVANI",27);
-        uruguay.Insertar("SUAREZ",27);
-        uruguay.Insertar("GODIN",28);
-        uruguay.Insertar("LUGANO",33);
+        uruguay.Insertar("LODEIRO", 25);
+        uruguay.Insertar("CAVANI", 27);
+        uruguay.Insertar("SUAREZ", 27);
+        uruguay.Insertar("GODIN", 28);
+        uruguay.Insertar("LUGANO", 33);
 
 //Em esta sección se inseran los equipos en una lista ordenada alfabéticamente
         Equipos oequipos = new Equipos();
@@ -280,97 +277,141 @@ public class ProjectII {
         oequipos.Insertar("GRECIA", grecia);
         oequipos.Insertar("HONDURAS", honduras);
         oequipos.Insertar("INGLATERRA", inglaterra);
-        oequipos.Insertar("IRAN",iran);
-        oequipos.Insertar("ITALIA",italia);
-        oequipos.Insertar("JAPON",japon);
-        oequipos.Insertar("MEXICO",mexico);
-        oequipos.Insertar("NIGERIA",nigeria);
-        oequipos.Insertar("PAISES BAJOS",pBajos);
-        oequipos.Insertar("PORTUGAL",portugal);
-        oequipos.Insertar("REPUBLICA DE COREA",rCorea);
-        oequipos.Insertar("RUSIA",rusia);
-        oequipos.Insertar("SUIZA",suiza);
-        oequipos.Insertar("URUGUAY",uruguay);
+        oequipos.Insertar("IRAN", iran);
+        oequipos.Insertar("ITALIA", italia);
+        oequipos.Insertar("JAPON", japon);
+        oequipos.Insertar("MEXICO", mexico);
+        oequipos.Insertar("NIGERIA", nigeria);
+        oequipos.Insertar("PAISES BAJOS", pBajos);
+        oequipos.Insertar("PORTUGAL", portugal);
+        oequipos.Insertar("REPUBLICA DE COREA", rCorea);
+        oequipos.Insertar("RUSIA", rusia);
+        oequipos.Insertar("SUIZA", suiza);
+        oequipos.Insertar("URUGUAY", uruguay);
 
 //Si se quiere ver solo los equipos de algún grupo
         Equipos EquiposA = new Equipos();
         EquiposA.Insertar("BRASIL", brasil);
         EquiposA.Insertar("CAMERUN", camerun);
         EquiposA.Insertar("CROACIA", croacia);
-        EquiposA.Insertar("MEXICO",mexico);
+        EquiposA.Insertar("MEXICO", mexico);
 
         Equipos EquiposB = new Equipos();
         EquiposB.Insertar("AUSTRALIA", australia);
         EquiposB.Insertar("CHILE", chile);
         EquiposB.Insertar("ESPAÑA", espana);
-        EquiposB.Insertar("PAISES BAJOS",pBajos);
+        EquiposB.Insertar("PAISES BAJOS", pBajos);
 
         Equipos EquiposC = new Equipos();
         EquiposC.Insertar("COSTA DE MARFIL", cMarfil);
         EquiposC.Insertar("COLOMBIA", colombia);
         EquiposC.Insertar("GRECIA", grecia);
-        EquiposC.Insertar("JAPON",japon);
-        
+        EquiposC.Insertar("JAPON", japon);
 
         Equipos EquiposD = new Equipos();
         EquiposD.Insertar("COSTA RICA", cRica);
-        EquiposD.Insertar("URUGUAY",uruguay);
+        EquiposD.Insertar("URUGUAY", uruguay);
         EquiposD.Insertar("INGLATERRA", inglaterra);
-        EquiposD.Insertar("ITALIA",italia);
+        EquiposD.Insertar("ITALIA", italia);
 
         Equipos EquiposE = new Equipos();
         EquiposE.Insertar("FRANCIA", francia);
         EquiposE.Insertar("ECUADOR", ecuador);
-        EquiposE.Insertar("SUIZA",suiza);
+        EquiposE.Insertar("SUIZA", suiza);
         EquiposE.Insertar("HONDURAS", honduras);
 
         Equipos EquiposF = new Equipos();
         EquiposF.Insertar("ARGENTINA", argentina);
         EquiposF.Insertar("BOSNIA Y HERZEGOVINA", bosnia);
-        EquiposF.Insertar("NIGERIA",nigeria);
-        EquiposF.Insertar("IRAN",iran);
+        EquiposF.Insertar("NIGERIA", nigeria);
+        EquiposF.Insertar("IRAN", iran);
 
         Equipos EquiposG = new Equipos();
         EquiposG.Insertar("ALEMANIA", alemania);
         EquiposG.Insertar("ESTADOS UNIDOS", eu);
         EquiposG.Insertar("GHANA", ghana);
-        EquiposG.Insertar("PORTUGAL",portugal);
+        EquiposG.Insertar("PORTUGAL", portugal);
 
         Equipos EquiposH = new Equipos();
         EquiposH.Insertar("BELGICA", belgica);
         EquiposH.Insertar("ARGELIA", argelia);
-        EquiposH.Insertar("RUSIA",rusia);
-        EquiposH.Insertar("REPUBLICA DE COREA",rCorea);
-        
-//Se insertan los partidos
-        Partidos ListaPartidos= new Partidos();
-        ListaPartidos.Insertar("BRASIL", "CROACIA", "12 JUNIO", "17:00",
-                "ARENA DE SAO PAULO", "11'GPM MARCELO ", "29' 71'GP NEYMAR JR"+
-                        "\n"+"OSCAR 90'+1");
-        ListaPartidos.Insertar("MEXICO","CAMERUN","13 JUNIO","13:00","ESTADIO "
-                + "DAS DUNAS","","61' PERALTA");
-        ListaPartidos.Insertar("ESPAÑA", "PAISES BAJOS", "12 JUNIO","16:00",
-                "ARENA FONTE NOVA","27' GP ALONSO", "44', 72' V. PERSIE"+"\n"+
-                        "53', 80' ROBBEN"+"\n"+"65' DE VRIJ");
-        ListaPartidos.Insertar("CHILE","AUSTRALIA","13 JUNIO","18:00",
-                "ARENA PANTANAL","35' CAHILL","12' ALEXIS"+"\n"+"14' VALDIVIA"+
-                        "\n" +"90'+2 BEAUSEJOUR");
-        ListaPartidos.Insertar("COLOMBIA","GRECIA","13 JUNIO","13:00",
-                "ESTADIO MINEIRAO","","5' ARMERO" +"\n"+"58' TEO"+"\n"+"90'+3 JAMES");
-        
-//Se filtran los partidos que se llevaron a cabo en cada estadio
-        
-        NodoPartidos pArenaAmazonia;
-        NodoPartidos pArenaCorinthians;
-//        NodoPartidos pArenaBaxaida;
-//        NodoPartidos pArenaAmazonia;
-//        NodoPartidos pArenaAmazonia;
-//        NodoPartidos pArenaAmazonia;
-        
-        Sedes oSedes = new Sedes();
-//        oSedes.Insertar("ARENA AMAZONIA", pArenaAmazonia);
+        EquiposH.Insertar("RUSIA", rusia);
+        EquiposH.Insertar("REPUBLICA DE COREA", rCorea);
 
-        frmMain oMain= new frmMain();
+//Se insertan los partidos
+        Partidos ListaPartidos = new Partidos();
+        ListaPartidos.Insertar("BRASIL", "CROACIA", "12 JUNIO", "17:00",
+                "ARENA DE SAO PAULO", "11'GPM MARCELO ", "29' 71'GP NEYMAR JR"
+                + "\n" + "OSCAR 90'+1");
+        ListaPartidos.Insertar("MEXICO", "CAMERUN", "13 JUNIO", "13:00", "ESTADIO "
+                + "DAS DUNAS", "", "61' PERALTA");
+        ListaPartidos.Insertar("ESPAÑA", "PAISES BAJOS", "12 JUNIO", "16:00",
+                "ARENA FONTE NOVA", "27' GP ALONSO", "44', 72' V. PERSIE" + "\n"
+                + "53', 80' ROBBEN" + "\n" + "65' DE VRIJ");
+        ListaPartidos.Insertar("CHILE", "AUSTRALIA", "13 JUNIO", "18:00",
+                "ARENA PANTANAL", "35' CAHILL", "12' ALEXIS" + "\n" + "14' VALDIVIA"
+                + "\n" + "90'+2 BEAUSEJOUR");
+        ListaPartidos.Insertar("COLOMBIA", "GRECIA", " 14 JUNIO", ",13:00",
+                " ESTADIO MINEIRAO", "", "5' ARMERO" + "\n" + "58' TEO" + "\n" + "90'+3 JAMES");
+
+        ListaPartidos.Insertar("URUGUAY", "COSTA RICA", " 14 JUNIO", "16:00",
+                " ESTADIO CASTELAO", "57' DUARTE" + "\n" + "54' CAMPELL"
+                + "\n" + "84' UREÑA", "24' CAVANI");
+
+        ListaPartidos.Insertar("INGLATERRA", "ITALIA", " 14 JUNIO", "18:00",
+                " ARENA ARNAZONIA", "50' BALOTELLI" + "\n" + "35' MARCHISIO",
+                "37' STURRIDGE");
+
+        ListaPartidos.Insertar("COSTA DE MARFIL", "JAPON", " 14 JUNIO", "22:00",
+                " ARENA PERNAMBUCO", "16' HONDA" + "\n" + "64' WILFRIED",
+                "66' GERVINHO ");
+
+        ListaPartidos.Insertar("SUIZA", "ECUADOR", " 15 JUNIO", "13:00",
+                " ESTADIO NACIONAL BRASILIA", "22' VALENCIA" + "\n" + "48' MEHMEDI",
+                "90'+3 SEFEROVIC ");
+
+        ListaPartidos.Insertar("FRANCIA", "HONDURAS", " 15 JUNIO", "16:00",
+                " ESTADIO BEIRA-RIO", "45' GP, 72' BENZEMA" + "\n"
+                + "48' GPM' VALLADARES",
+                "");
+
+        ListaPartidos.Insertar("ARGENTINA", "BOSNIA Y HERZEGOVINA", " 15 JUNIO",
+                "19:00", " ESTADIO MARACANA", "85' IBIŠEVIĆ" + "\n"
+                + "3' GPM KOLAŠINAC", "65' MESSI ");
+
+        ListaPartidos.Insertar("ALEMANIA", "PORTUGAL", " 16 JUNIO", "13:00",
+                "ARENA FONTE NOVA", "" + "\n" + "12', 45'+1, 78 GP MULLER",
+                "32' HUMMELS ");
+
+        ListaPartidos.Insertar("IRÁN", "NIGERIA", " 16 JUNIO", "16:00",
+                "ARENA DA BAIXADA", "", "");
+
+        ListaPartidos.Insertar("GHANA", "EEUU", " 16 JUNIO", "19:00",
+                "ESTADIO DAS DUNAS", "86' BROOKS" + "\n" + "1',DEMPSEY",
+                "82' AYEW ");
+
+        ListaPartidos.Insertar("BÉLGICA", "ARGELIA", " 17 JUNIO", "13:00",
+                "ESTADIO MINEIRAO", "25'GP FEGHOULI" + "\n" + "70' FELLAINI",
+                "80' MERTENS ");
+
+        ListaPartidos.Insertar("BRASIL", "MEXICO", " 17 JUNIO", "16:00",
+                "ESTADIO CASTELAO", "", "");
+
+        ListaPartidos.Insertar("RUSIA", "REPUBLICA DE COREA", " 17 JUNIO",
+                "18:00", "ARENA PANTANAL", "68' LEE", "74' KERZHAKOV");
+
+        ListaPartidos.Insertar("AUSTRALIA", "PAISES BAJOS", " 18 JUNIO", "13:00",
+                "ESTADIO BEIRA-RIO", "58'PERSIE" +"68' MEMPHIS "+"20' ROBBEN"+ "\n" +
+                        "21' CAHILL ", "54'GP JEDINAK ");
+        
+         ListaPartidos.Insertar("ESPAÑA", "CHILE", " 18 JUNIO", "16:00",
+                "ESTADIO MARACANA", "43' ARANGUIZ" +"20' VARGAS " + "\n" , "");
+        
+  
+         ListaPartidos.Insertar("CAMERUN ","CROACIA","18 JUNIO", "1:00",
+                "ARENA AMAZONIA", "48' PERIŠIĆ" + "11' OLIĆ " +"61',63'MANDŽUKIĆ "+"\n" , "");
+        
+        frmMain oMain = new frmMain();
         oMain.setVisible(true);
     }
 
