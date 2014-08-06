@@ -352,6 +352,8 @@ public class ProjectII {
         ListaPartidos.Insertar("CHILE","AUSTRALIA","13 JUNIO","18:00",
                 "ARENA PANTANAL","35' CAHILL","12' ALEXIS"+"\n"+"14' VALDIVIA"+
                         "\n" +"90'+2 BEAUSEJOUR");
+        ListaPartidos.Insertar("COLOMBIA","GRECIA","13 JUNIO","13:00",
+                "ESTADIO MINEIRAO","","5' ARMERO" +"\n"+"58' TEO"+"\n"+"90'+3 JAMES");
         
 
         frmMain oMain= new frmMain();
